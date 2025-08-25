@@ -805,6 +805,8 @@ hr {
   text-decoration: underline;
 }
 
+/* =======template====== */
+
 @media (min-width: 800px) and (max-width: 834px) {
   /* ======NAV++++++ */
   .navbar {
@@ -1190,7 +1192,12 @@ hr {
   }
 }
 
+/* =======Mobile Phone======= */
+
 @media (min-width: 400px) and (max-width: 434px) {
+  body{
+  font-family: "Roboto", "Content", cursive, sans-serif;;
+  }
   .navbar {
     width: 100%;
     margin: 0;
@@ -1203,7 +1210,7 @@ hr {
     text-align: center;
   }
   a {
-    font-size: 12px;
+    font-size: 12.5px;
   }
   .img-logo {
     margin: 5px;
@@ -1218,35 +1225,44 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../img/image-10.png);
-    width: 95%;
+    width: 100%;
     /* background-image: none; */
   }
   .intrudution{
-      margin: 0px 0px 100px 0;
+      margin: 0px 26px 100px -50px;
     }
     .h1-nav{
-        margin-top: 100px;
+      margin-right: 60px;
+        margin-top: 80px;
         font-size: 40px;
     }
     .h2-nav{
+      padding-left: 70px;
+      padding-right: 150px;
+      /* padding: 0px 30px ; */
         line-height: 1.5em;
-        font-size: 20px;
+        font-size: 24px;
     }
     .par-nav{
-      padding: 0 20px;
-    font-size: 14px;
+      padding-left: 55px;
+      padding-right: 144.5px;
+      /* padding: 0 30px; */
+    font-size: 20px;
   }
     .test {
         height: 100vh;
-    background: #00000083;
+      background: #00000093;
+  }
+  .btn-nav{
+    margin-left: -100px;
   }
 
 /* ====ABOUT===== */
 
   .about-top{
-    margin: 50px 20px 50px 38px;
+    margin: 50px 0px 130px 40px;
     padding: 0;
-    width: 80%;
+    width: 60%;
   }
   .h2-about{
     font-size: 40px;
@@ -1254,7 +1270,7 @@ hr {
     /* padding: 0; */
   }
   .par-about{
-    font-size: 14px;
+    font-size: 18px;
   }
   .about-buttom{
     margin: 0;
@@ -1266,13 +1282,14 @@ hr {
     "info";
   }
   .img-info{
-    margin: 10px;
+    margin-left: 14px;
+    /* margin: 10px; */
     height: 40vh;
-    width: 90%;
+    width: 70%;
   }
   .info{
-    margin: 20px;
-    width: 90%;
+    margin: 15px;
+    width: 70%;
   }
 
   /* =====value-pnc==== */
@@ -1283,12 +1300,14 @@ hr {
     width: 100%;
   }
   .h1-value{
+    margin-left: -150px;
     padding-top: 50px;
     font-size: 40px;
   }
   .rule{
-    margin-right: 50px;
-    width: 70%;
+    margin-left: -180px;
+    /* margin-right: 30px; */
+    width: 60%;
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -1296,7 +1315,16 @@ hr {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 50px;
-    height: 38vh;
+    height: 40vh;
+  }
+  .par-info{
+    font-size: 18px;
+  }
+  .h2-rule{
+    font-size: 30px;
+  }
+  .par-rule{
+    font-size: 20px;
   }
 
 /* =====Canteen====== */
@@ -1307,18 +1335,22 @@ hr {
     padding: 0;
   }
   .h1-canteen{
+    margin-left: -180px;
     padding-top: 100px;
     font-size: 40px;
   }
   table{
     display: none;
-    width: 1%;
+    /* width: 1%; */
   }
   .info-canteen{
-    margin-left: 10px;
+    margin-top: -20px;
+    font-size: 20px;
+    color: black;
+    margin-left: 9px;
     /* margin: 0; */
     padding: 0;
-    width: 90%;
+    width: 70%;
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -1327,6 +1359,9 @@ hr {
   }
   .img-canteen-1{
     width: 100%;
+  }
+  .parent-canteen{
+    font-size: 20px;
   }
   .par-canteen-1{
     display: none;
@@ -1341,7 +1376,7 @@ hr {
   .img-food-3,
   .img-food-4{
     padding-top: 20px;
-    width: 90%;
+    width: 68%;
   }
 
 /* =====Sport==== */
@@ -1352,7 +1387,7 @@ hr {
     padding: 0;
   }
   .h1-sport{
-    margin-right: 90px;
+    margin-left: -170px;
     /* margin-left: 0px; */
     /* padding: 10px; */
     font-size: 40px;
@@ -1365,15 +1400,16 @@ hr {
   }
   .img-sport-1{
     margin-left: 10px;
-    height: 40vh;
+    height: 50vh;
     /* margin: 0; */
     padding: 0;
-    width: 90%;
+    width: 70%;
   }
   .par-sport{
+    font-size: 20px;
     margin-top: 30px;
-    margin-left: 30px;
-    width: 82%;
+    margin-left: 20px;
+    width: 68%;
   }
   .img-type-sport{
     display: grid;
@@ -1383,12 +1419,21 @@ hr {
   .sport-2,
   .sport-3,
   .sport-4{
-    height: 48vh;
-    margin-left: 22px;
-    width: 85%;
+    height: 65vh;
+    margin-left: 15px;
+    width: 68%;
   }
   .img-type-sport-1{
+    height: 40vh;
     width: 100%;
+  }
+  .h2-info-sport{
+    padding: 30px;
+    font-size: 30px;
+  }
+  .par-info-sport{
+    padding: 0 30px;
+    font-size: 20px;
   }
 
 /* =====Aerobic====== */
@@ -1398,7 +1443,7 @@ hr {
   }
   .h1-top-aero{
     line-height: 1.5em;
-    margin-right: 100px;
+    margin-left: -250px;
     font-size: 40px;
   }
   .info-aero{
@@ -1415,11 +1460,12 @@ hr {
     /* margin-right: 30px; */
     padding: 0;
     height: 40vh;
-    width: 90%;
+    width: 70%;
     grid-area: img-aero-1;
   }
   .text-aero{
-    width: 98%;
+    font-size: 18px;
+    width: 75%;
     margin-left: -80px;
     padding: 0;
     grid-area: text-aero;
@@ -1434,92 +1480,183 @@ hr {
   .aero-2,
   .aero-3,
   .aero-4{
-    height: 50vh;
-    width: 85%;
-    margin-left: -25px;
+    height: 65vh;
+    width: 68%;
+    margin-left: -35px;
     padding: 0;
   }
   .h2-aero{
-    padding-top: 20px;
+    padding-top: 30px;
+  }
+  .img-top-aero-1,
+  .img-top-aero-2,
+  .img-top-aero-3,
+  .img-top-aero-4{
+    width: 100%;
+    height: 40vh;
+  }
+  .par-aero{
+    padding: 20px;
+    font-size: 20px;
   }
 
 /* ======Contact===== */
 
   .Contact{
-    margin-top: 1400px;
+    margin-top: 1900px;
   }
   .app-contact{
+    width: 40%;
     /* padding-left: -100px; */
     /* margin-left: -10px; */
     display: grid;
-    gap: 30px;
+    gap: 40px;
     align-items: center;
     justify-content: center;
     grid-template-columns: 1fr;
-  }
-  .address{
-    /* margin-left: -10px; */
-  }
-  .phone-pnc,
-  .email-pnc{
-    /* margin-left: -30px; */
   }
   .img-contact-1{
     display: none;
   }
   .h1-top-contact{
+    padding-right: 210px;
     font-size: 40px;
   }
   .top-contact{
-    margin-left: -20px;
+    /* margin-left: -20px; */
     padding: 0;
-    width: 100%;
-    height: 50vh;
+    width: 73%;
+    height: 40vh;
   }
   .con{
-    height: 50vh;
+    height: 40vh;
   }
   .h1-con{
-    /* margin: 0; */
-    padding-top: 50px;
-    font-size: 40px;
+    padding-top: 30px;
+    font-size: 30px;
   }
   .h1-con-1{
-    font-size: 40px;
+    font-size: 30px;
     
   }
   .par-contact{
     font-size: 20px;
-
+  
   }
-
-/* ======form-info===== */
-
+  .btn-contact{
+    padding: 0;
+    width: 44%;
+    height: 7vh;
+  }
+  
+  /* ======form-info===== */
+  
   .form-contact{
     display: grid;
     grid-template-columns: 1fr;
   }
   .form-info{
-    margin-left: -30px;
-    height: 64vh;
-    width: 90%;
+    margin-left: -28px;
+    height: 68vh;
+    width: 65%;
+  }
+  .form-info-user{
+    font-size: 20px;
   }
   .head-app{
+    padding: 20px;
     font-size: 30px;
   }
-
-/* =======map===== */
-
-  .h1-map{
-    font-size: 40px;
+  .par-app{
+    font-size: 20px;
   }
-  .map-pnc{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-    border-radius: 4px;
-    margin-left: -15px;
-    padding: 0;
-    width: 100%;
-    height: 50vh;
+  /* =======map===== */
+  
+    .h1-map{
+      padding-right: 150px;
+      /* margin-right: 20px; */
+      font-size: 40px;
+    }
+    .map-pnc{
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+      border-radius: 4px;
+      margin-left: -14px;
+      padding: 0;
+      width: 75%;
+      height: 50vh;
+    }
+  
+/* =======FOOTER==== */
+
+    .footer{
+      width: 60%;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .footer-info{
+      margin-left: -30px;
+      /* width: 100%; */
+      display: grid;
+      gap: 30px;
+      justify-content: center;
+      align-items: center;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: 
+      "value-pnc major"
+      "socail-contact develop";
+    }
+    .value-pnc{
+      grid-area: value-pnc ;
+    }
+    .major{
+      margin-top: -85px;
+      grid-area: major;
+    }
+    .socail-contact{
+      grid-area: socail-contact;
+    }
+    .develop{
+      margin-top: -60px;
+      grid-area: develop;
+    }
+  hr{
+    margin-top: -20px;
   }
+    .logo-pnc{
+      display: none;
+    }
+    .par-test-1{
+      /* flex-direction: column; */
+      display: contents;
+    }
+    .par-test{
+      display: flex;
+    }
+    .delete{
+      display: none;
+    }
+    .socail-contact,
+    .value-pnc-2,
+    .major-2,
+    .develop-2{
+      font-size: 20px;
+    }
+    .develop-1{
+      font-size: 18px;
+    }
+    .major-1{
+      font-size: 18px;
+    }
+    .value-pnc-1{
+      font-size: 18px;
+
+    }
+    .icon-socail{
+      display: flex;
+      flex-direction: column;
+    }
+    .copyright{
+      font-size: 14px;
+    }
 }
