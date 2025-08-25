@@ -617,6 +617,7 @@ td:hover {
   width: 100%;
 }
 .form-info {
+  margin-left: 20px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 30px 30px 0 40px;
@@ -1101,12 +1102,29 @@ hr {
   .img-contact-1 {
     display: none;
   }
+  .h3-form{
+    font-size: 30px;
+  }
+  .form-info{
+    padding-top: 40px;
+    padding-left: 60px;
+    margin-left: 40px;
+    height: 58vh;
+  }
 
   /* =====map-pnc==== */
 
   .map-pnc {
+    margin: 0;
+    width: 100%;
     border-radius: 10px;
     height: 50vh;
+  }
+  .map-pnc:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* padding: 30px 20px; 
+    background: white; */
+
   }
 
   /* ======FOOTER===== */
@@ -1200,11 +1218,11 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../img/image-10.png);
-    width: 40%;
+    width: 95%;
     /* background-image: none; */
   }
   .intrudution{
-      margin: 0px 100px 100px 0;
+      margin: 0px 0px 100px 0;
     }
     .h1-nav{
         margin-top: 100px;
@@ -1220,15 +1238,15 @@ hr {
   }
     .test {
         height: 100vh;
-    background: #000000a1;
+    background: #00000083;
   }
 
 /* ====ABOUT===== */
 
   .about-top{
-    margin: 50px 10px;
+    margin: 50px 20px 50px 38px;
     padding: 0;
-    width: 30%;
+    width: 80%;
   }
   .h2-about{
     font-size: 40px;
@@ -1250,11 +1268,11 @@ hr {
   .img-info{
     margin: 10px;
     height: 40vh;
-    width: 30%;
+    width: 90%;
   }
   .info{
     margin: 20px;
-    width: 30%;
+    width: 90%;
   }
 
   /* =====value-pnc==== */
@@ -1262,26 +1280,29 @@ hr {
   .value-pnc{
     margin: 0;
     padding: 0;
-    width: 30%;
+    width: 100%;
   }
   .h1-value{
     padding-top: 50px;
     font-size: 40px;
   }
   .rule{
-    margin-left: 15px;
-    width: 95%;
+    margin-right: 50px;
+    width: 70%;
     display: grid;
     grid-template-columns: 1fr;
   }
   .rule-parent{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
     height: 38vh;
   }
 
 /* =====Canteen====== */
 
   .Canteen{
-    width: 30%;
+    width: 100%;
     margin: 0;
     padding: 0;
   }
@@ -1297,12 +1318,12 @@ hr {
     margin-left: 10px;
     /* margin: 0; */
     padding: 0;
-    width: 100%;
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr;
   }
   .text-info{
-    padding: 10px;
+    padding: 20px;
   }
   .img-canteen-1{
     width: 100%;
@@ -1311,6 +1332,7 @@ hr {
     display: none;
   }
   .img-food{
+    margin-left: 22px;
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -1318,20 +1340,186 @@ hr {
   .img-food-2,
   .img-food-3,
   .img-food-4{
-    padding: 10px;
-    width: 100%;
+    padding-top: 20px;
+    width: 90%;
   }
 
 /* =====Sport==== */
 
   .Sport{
-    width: 30%;
+    width: 100%;
     margin: 0;
     padding: 0;
   }
   .h1-sport{
-    margin-left: 35px;
+    margin-right: 90px;
+    /* margin-left: 0px; */
     /* padding: 10px; */
     font-size: 40px;
+  }
+  .info-top-sport{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .img-sport-1{
+    margin-left: 10px;
+    height: 40vh;
+    /* margin: 0; */
+    padding: 0;
+    width: 90%;
+  }
+  .par-sport{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 82%;
+  }
+  .img-type-sport{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .sport-1,
+  .sport-2,
+  .sport-3,
+  .sport-4{
+    height: 48vh;
+    margin-left: 22px;
+    width: 85%;
+  }
+  .img-type-sport-1{
+    width: 100%;
+  }
+
+/* =====Aerobic====== */
+
+  .Aerobic{
+    width: 100%;
+  }
+  .h1-top-aero{
+    line-height: 1.5em;
+    margin-right: 100px;
+    font-size: 40px;
+  }
+  .info-aero{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "img-aero-1"
+    "text-aero";
+  }
+  .img-aero-1{
+    margin-left: -40px;
+    /* margin-right: 30px; */
+    padding: 0;
+    height: 40vh;
+    width: 90%;
+    grid-area: img-aero-1;
+  }
+  .text-aero{
+    width: 98%;
+    margin-left: -80px;
+    padding: 0;
+    grid-area: text-aero;
+  }
+  .card-aero{
+    margin-top: 30px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .aero-1,
+  .aero-2,
+  .aero-3,
+  .aero-4{
+    height: 50vh;
+    width: 85%;
+    margin-left: -25px;
+    padding: 0;
+  }
+  .h2-aero{
+    padding-top: 20px;
+  }
+
+/* ======Contact===== */
+
+  .Contact{
+    margin-top: 1400px;
+  }
+  .app-contact{
+    /* padding-left: -100px; */
+    /* margin-left: -10px; */
+    display: grid;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+  }
+  .address{
+    /* margin-left: -10px; */
+  }
+  .phone-pnc,
+  .email-pnc{
+    /* margin-left: -30px; */
+  }
+  .img-contact-1{
+    display: none;
+  }
+  .h1-top-contact{
+    font-size: 40px;
+  }
+  .top-contact{
+    margin-left: -20px;
+    padding: 0;
+    width: 100%;
+    height: 50vh;
+  }
+  .con{
+    height: 50vh;
+  }
+  .h1-con{
+    /* margin: 0; */
+    padding-top: 50px;
+    font-size: 40px;
+  }
+  .h1-con-1{
+    font-size: 40px;
+    
+  }
+  .par-contact{
+    font-size: 20px;
+
+  }
+
+/* ======form-info===== */
+
+  .form-contact{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .form-info{
+    margin-left: -30px;
+    height: 64vh;
+    width: 90%;
+  }
+  .head-app{
+    font-size: 30px;
+  }
+
+/* =======map===== */
+
+  .h1-map{
+    font-size: 40px;
+  }
+  .map-pnc{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    border-radius: 4px;
+    margin-left: -15px;
+    padding: 0;
+    width: 100%;
+    height: 50vh;
   }
 }
