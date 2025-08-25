@@ -1628,10 +1628,10 @@ hr {
     }
     .par-test-1{
       /* flex-direction: column; */
-      display: contents;
+      /* display: contents; */
+      display: flex;
     }
     .par-test{
-      display: flex;
     }
     .delete{
       display: none;
